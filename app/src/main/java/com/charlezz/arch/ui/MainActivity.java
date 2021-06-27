@@ -13,7 +13,6 @@ import dagger.Lazy;
 import dagger.android.support.DaggerAppCompatActivity;
 //멤버 인젝션을 하기 위해 DaggerAppCompatActivity를 상속한다.
 public class MainActivity extends DaggerAppCompatActivity {
-
     //바인딩 클래스 주입
     @Inject
     Lazy<ActivityMainBinding> binding;
